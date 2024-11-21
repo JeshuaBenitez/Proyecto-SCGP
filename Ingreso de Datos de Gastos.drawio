@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.6" pages="2">
+  <diagram name="Página-1" id="r-ie8d6oREJ_-zDVmmwD">
+    <mxGraphModel dx="939" dy="1212" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" parent="1" vertex="1">
+          <mxGeometry x="13" y="-111.5" width="559" height="655" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-3" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-155" y="138" width="101" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-4" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Ingreso de datos de gastos&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="164" y="-252" width="257" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Sistema&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="-101" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Ingresar datos&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;de gastos&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="34" y="153" width="203" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-9" value="&lt;font size=&quot;3&quot;&gt;Verificar datos ingresados&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="78" y="-74" width="157" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-12" value="&lt;font size=&quot;3&quot;&gt;Clasificar gasto&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="147" y="19" width="163" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-15" value="include&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.332;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="nCP3TkjRdDgn8DY9tUpi-8" target="nCP3TkjRdDgn8DY9tUpi-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349" y="29" as="sourcePoint" />
+            <mxPoint x="269" y="29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-16" value="Include" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.612;entryY=0.02;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="nCP3TkjRdDgn8DY9tUpi-12" target="nCP3TkjRdDgn8DY9tUpi-8" edge="1">
+          <mxGeometry x="0.0289" y="-15" relative="1" as="geometry">
+            <mxPoint x="370" y="-14" as="sourcePoint" />
+            <mxPoint x="273" y="5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nCP3TkjRdDgn8DY9tUpi-3" target="nCP3TkjRdDgn8DY9tUpi-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-41" y="112" as="sourcePoint" />
+            <mxPoint x="9" y="62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-19" value="&lt;font size=&quot;3&quot;&gt;Notificar Gasto Acumulativo&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="117" y="294" width="163" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-20" value="extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nCP3TkjRdDgn8DY9tUpi-19" target="nCP3TkjRdDgn8DY9tUpi-8" edge="1">
+          <mxGeometry x="-0.196" y="-14" relative="1" as="geometry">
+            <mxPoint x="230" y="246" as="sourcePoint" />
+            <mxPoint x="370" y="97" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-21" value="&lt;font size=&quot;3&quot;&gt;Analizar patrón de gasto reciente&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="388" y="124" width="163" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-22" value="extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nCP3TkjRdDgn8DY9tUpi-21" target="nCP3TkjRdDgn8DY9tUpi-26" edge="1">
+          <mxGeometry x="-0.4574" y="21" relative="1" as="geometry">
+            <mxPoint x="372" y="217" as="sourcePoint" />
+            <mxPoint x="247" y="216" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-26" value="&lt;font size=&quot;3&quot;&gt;Reconocimiento de patrones&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="277" y="-71" width="163" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-27" value="Include" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.673;entryY=0.069;entryDx=0;entryDy=0;exitX=0.041;exitY=0.702;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="nCP3TkjRdDgn8DY9tUpi-26" target="nCP3TkjRdDgn8DY9tUpi-12" edge="1">
+          <mxGeometry x="0.0289" y="-15" relative="1" as="geometry">
+            <mxPoint x="146" y="163" as="sourcePoint" />
+            <mxPoint x="181" y="98" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-28" value="&lt;font size=&quot;3&quot;&gt;Asignación a categorías predefinidas&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="396" y="30" width="163" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-29" value="Include" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nCP3TkjRdDgn8DY9tUpi-28" target="nCP3TkjRdDgn8DY9tUpi-26" edge="1">
+          <mxGeometry x="-0.2282" y="-4" relative="1" as="geometry">
+            <mxPoint x="239" y="29" as="sourcePoint" />
+            <mxPoint x="315" y="-8" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-30" value="&lt;font size=&quot;3&quot;&gt;Marcar como gasto recurrente&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="283" y="402" width="163" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="nCP3TkjRdDgn8DY9tUpi-31" value="extend" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nCP3TkjRdDgn8DY9tUpi-30" target="nCP3TkjRdDgn8DY9tUpi-19" edge="1">
+          <mxGeometry x="0.0016" y="-6" relative="1" as="geometry">
+            <mxPoint x="343" y="337" as="sourcePoint" />
+            <mxPoint x="350" y="297" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="O7RaADeeOBWoiXWYZ5aU" name="Página-2">
+    <mxGraphModel dx="3000" dy="1757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pHh7AvMxcGafE_CA-iWX-1" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;Explicación de los casos de uso:&lt;/span&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Ingresar datos de gastos: &lt;/b&gt;Permite al usuario registrar información sobre un gasto realizado, como la cantidad, fecha y categoría del gasto.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Incluye los casos de uso &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Verificar datos ingresados&#39; y &#39;Clasificar Gasto&#39;, &lt;/b&gt;ya que ambos son necesarios para garantizar la integridad y clasificación de los datos proporcionados.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende a &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Notificar Gasto Acumulado&#39;&lt;/b&gt;&amp;nbsp;si el monto total de los gastos superan un umbral predefinido.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;También se extiende a &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Marcar como gasto recurrente&#39;&lt;/b&gt;&amp;nbsp;si el usuario indica que el gasto es repetitivo.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Verificar datos ingresados: &lt;/b&gt;El sistema revisa que los datos proporcionados sean válidos (por ejemplo, que el monto sea positivo y que las fechas sean correctas).&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Es incluido por &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Ingresar datos de gastos&#39;&lt;/b&gt;, ya que es un paso esencial para garantizar la validez de los datos antes de procesarlos.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Clasificar gasto: &lt;/b&gt;Identifica el tipo de gasto y lo clasifica dentro de una categoría específica (por ejemplo, comida, transporte, entretenimiento).&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Este caso incluye &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Ingresar datos de gastos&#39;&lt;/b&gt;, ya que es necesario categorizar cada gasto.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Este caso incluye &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Reconocimiento de patrones&#39;, &lt;/b&gt;un proceso automatizado para detectar categorías basándose en datos previos.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Reconocimiento de patrones: &lt;/b&gt;Utiliza datos históricos o patrones establecidos para sugerir una categoría predefinida al gasto.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Es incluido por &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Clasificar gasto&#39;&lt;/b&gt;, ya que mejora la clasificación mediante la automatización basada en aprendizaje previo.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende a &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Asignación a categorías predefinidas&#39; &lt;/b&gt;si el sistema encuentra coincidencias exactas con las categorías existentes.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende a &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Analizar patrón de gasto reciente&#39;&lt;/b&gt;&amp;nbsp;si el sistema detecta un comportamiento que difiere de los patrones habituales del usuario.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Asignación a categorías predefinidas: &lt;/b&gt;El sistema asigna automáticamente el gasto a una categoría específica si encuentra una coincidencia exacta.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende desde &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Reconocimiento de patrones&#39;&lt;/b&gt;, ya que solo ocurre si hay coincidencias con categorías existentes.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Analizar patrón de gsato reciente: &lt;/b&gt;Identifica cambios o tendencias inusuales en los patrones de gasto del usuario y genera alertas o sugerencias.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende desde &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Reconocimiento de patrones&#39;, &lt;/b&gt;pero solo se activa si se detectan irregularidades o patrones nuevos.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Notificar Gasto Acumulativo: &lt;/b&gt;Informa al usuario si el monto total de los gastos acumulados en un periodo específico excede un límite predefinido.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende desde &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Ingresar datos de gastos&#39;, &lt;/b&gt;ya que es un proceso adicional que depende de los datos ingresados.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Marcar como gasto recurrente: &lt;/b&gt;Permite al usuario indicar que un gasto se repite periódicamente, para facilitar su registro futuro.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 21px;&quot;&gt;&lt;li style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende desde &lt;b style=&quot;font-size: 21px;&quot;&gt;&#39;Ingresar datos de gastos&#39;&lt;/b&gt;, ya que es una acción opcional que depende de la interacción del usuario.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="1450" height="940" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

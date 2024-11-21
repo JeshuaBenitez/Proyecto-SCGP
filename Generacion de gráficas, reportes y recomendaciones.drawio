@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.6" pages="2">
+  <diagram name="Página-1" id="QevEi7JrZBXtHWxQ8HsZ">
+    <mxGraphModel dx="974" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GHkWBlnJzktQdAIYeo0X-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Visualización de Reporte Completo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="90" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHkWBlnJzktQdAIYeo0X-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="205" y="195" width="710" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GHkWBlnJzktQdAIYeo0X-3" target="pUoEtavxAb6EhsqpO-Y9-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GHkWBlnJzktQdAIYeo0X-3" value="Usuario&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="30" y="400" width="130" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Visualización de reporte completo&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="460" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Filtrar datos por rango de fechas&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="220" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-3" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=1;" parent="1" source="pUoEtavxAb6EhsqpO-Y9-1" target="pUoEtavxAb6EhsqpO-Y9-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="440" as="sourcePoint" />
+            <mxPoint x="460" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pUoEtavxAb6EhsqpO-Y9-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.0088" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Seleccionar tipo de reporte&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="300" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-6" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;endFill=1;" parent="1" source="pUoEtavxAb6EhsqpO-Y9-1" target="pUoEtavxAb6EhsqpO-Y9-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="400" as="sourcePoint" />
+            <mxPoint x="460" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pUoEtavxAb6EhsqpO-Y9-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0088" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Generar reporte gráfico&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="430" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-9" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=1;" parent="1" source="pUoEtavxAb6EhsqpO-Y9-1" target="pUoEtavxAb6EhsqpO-Y9-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="510" as="sourcePoint" />
+            <mxPoint x="470" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pUoEtavxAb6EhsqpO-Y9-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0088" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Validar rango de fechas&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="180" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-21" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=1;" parent="1" source="pUoEtavxAb6EhsqpO-Y9-2" target="pUoEtavxAb6EhsqpO-Y9-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="400" as="sourcePoint" />
+            <mxPoint x="780" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-22" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pUoEtavxAb6EhsqpO-Y9-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.0088" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Seleccionar tipo de gráfico&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="280" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-24" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=1;" parent="1" source="pUoEtavxAb6EhsqpO-Y9-8" target="pUoEtavxAb6EhsqpO-Y9-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="430" as="sourcePoint" />
+            <mxPoint x="870" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUoEtavxAb6EhsqpO-Y9-25" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pUoEtavxAb6EhsqpO-Y9-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.0088" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1WcI22cYNOGCAuIdJkQm" name="Página-2">
+    <mxGraphModel dx="1948" dy="1330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j1WWjXgH7O7Mia2EJYIv-1" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Explicación de los casos de uso:&lt;/span&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;&lt;ol style=&quot;font-size: 24px;&quot;&gt;&lt;li style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Visualización de Reporte completo: &lt;/b&gt;Este caso de uso permite al usuario obtener una visión integral de los datos almacenados en el sistema mediante reportes. El usuario puede filtrar información, seleccionar el tipo de reporte y visualizarlo de manera gráfica o en formato tabular. También se habilitan opciones para exportar o enviar reporte.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Filtrar datos por rango de fechas: &lt;/b&gt;Permite al usuario especificar un rango de fechas para delimitar los datos que de incluirán en el reporte. Esto es útil para obtener información detallada en un período determinado.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Seleccionar tipo de reporte: &lt;/b&gt;El usuario puede elegir el tipo de reporte que desea generar, como ingresos, gastos, balances o comparativos. Esto personaliza la información mostrada según las necesidades del usuario.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Generar reporte gráfico: &lt;/b&gt;Transforma los datos seleccionados en una representación gráfica para una mejor comprensión visual. Los gráficos pueden ser diferentes tipos (barras, líneas, pastel, etc.)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Validar rango de fechas: &lt;/b&gt;El sistema comprueba que las fechas ingresadas por el usuario sean válidas (por ejemplo, que no se introduzcan fechas en el futuro o un rango donde la fecha de inicio sea posterior a la de fin).&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;font-size: 24px;&quot;&gt;Seleccionar tipo de gráfico: &lt;/b&gt;Permite al usuario elegir entre diferentes estilos de gráficos (como barras, líneas o pastel) para que la representación del reporte sea acorde a sus preferencias.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="340" y="245" width="890" height="710" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

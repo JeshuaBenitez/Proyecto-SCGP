@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.6" pages="2">
+  <diagram name="Página-1" id="89kXOZ7M6hrQA_aJ3bkq">
+    <mxGraphModel dx="934" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="191" y="190" width="486" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-2" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;Inicio de sesión&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="314" y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-3" value="Sistema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="404" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x9fBfZ-t6eKAXQSf7vD3-4" target="6h3rwxKzMrV-uio4JRUm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-4" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="370" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Iniciar sesión&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="x9fBfZ-t6eKAXQSf7vD3-5" target="x9fBfZ-t6eKAXQSf7vD3-7" edge="1">
+          <mxGeometry x="-0.0382" y="-27" relative="1" as="geometry">
+            <mxPoint x="374" y="410" as="sourcePoint" />
+            <mxPoint x="364" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-7" value="Verificar credenciales" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-8" value="Notificar fallo de Autenticación" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.558;entryY=1.025;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="x9fBfZ-t6eKAXQSf7vD3-8" target="x9fBfZ-t6eKAXQSf7vD3-7" edge="1">
+          <mxGeometry x="-0.0532" y="30" relative="1" as="geometry">
+            <mxPoint x="486" y="126" as="sourcePoint" />
+            <mxPoint x="433" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-10" value="Recuperar contraseña" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-11" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="x9fBfZ-t6eKAXQSf7vD3-10" target="x9fBfZ-t6eKAXQSf7vD3-5" edge="1">
+          <mxGeometry x="-0.4486" y="-11" relative="1" as="geometry">
+            <mxPoint x="548" y="226" as="sourcePoint" />
+            <mxPoint x="428" y="522" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-12" value="Autenticación de Dos F&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3BentryX%3D0%3BentryY%3D0.5%3BentryDx%3D0%3BentryDy%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22-54%22%20y%3D%22221%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%2234%22%20y%3D%22207%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;actores" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="x9fBfZ-t6eKAXQSf7vD3-12" target="x9fBfZ-t6eKAXQSf7vD3-5" edge="1">
+          <mxGeometry x="-0.4574" y="21" relative="1" as="geometry">
+            <mxPoint x="534" y="326" as="sourcePoint" />
+            <mxPoint x="414" y="622" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9fBfZ-t6eKAXQSf7vD3-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="x9fBfZ-t6eKAXQSf7vD3-4" target="x9fBfZ-t6eKAXQSf7vD3-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194" y="456.086956521739" as="sourcePoint" />
+            <mxPoint x="108" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="6h3rwxKzMrV-uio4JRUm-3" target="6h3rwxKzMrV-uio4JRUm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6h3rwxKzMrV-uio4JRUm-6">
+          <mxGeometry x="0.0007" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Registrase&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingresar Nombre&amp;nbsp;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="6h3rwxKzMrV-uio4JRUm-14" source="6h3rwxKzMrV-uio4JRUm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="373" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6h3rwxKzMrV-uio4JRUm-12">
+          <mxGeometry x="0.0007" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingresar Correo&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="6h3rwxKzMrV-uio4JRUm-17" source="6h3rwxKzMrV-uio4JRUm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429" y="413" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-16" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6h3rwxKzMrV-uio4JRUm-15">
+          <mxGeometry x="0.0007" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingresar contraseña&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6h3rwxKzMrV-uio4JRUm-18" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6h3rwxKzMrV-uio4JRUm-3" target="x9fBfZ-t6eKAXQSf7vD3-7">
+          <mxGeometry x="-0.1215" y="-8" relative="1" as="geometry">
+            <mxPoint x="355" y="466" as="sourcePoint" />
+            <mxPoint x="485" y="504" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9fda5NTb4fVA-R9sB3hn" name="Página-2">
+    <mxGraphModel dx="2435" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2xy5WuFJG00n99oI42rn-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Explicación de los casos de uso:&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Registrarse: &lt;/b&gt;Permite al usuario crear una nueva cuenta en el sistema proporcionando datos básicos como nombre, correo y contraseña.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Este caso de uso incluye los subprocesos &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Ingresar Nombre&#39;, &#39;Ingresar Correo&#39; e &#39;Ingresar Contraseña&#39;, &lt;/b&gt;ya que son pasos necesarios para completar el registro.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Ingresar Nombre: &lt;/b&gt;El usuario introduce su nombre como parte del proceso de registro.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Este caso de uso incluye los subprocesos &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Ingresar Nombre&#39;, &#39;Ingresar Correo&#39; e &#39;Ingresar Contraseña&#39;, &lt;/b&gt;ya que son pasos necesarios para completar el registro.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Ingresar Correo: &lt;/b&gt;El usuario proporciona una dirección de correo electrónico como parte del registro.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Es incluido por el caso de uso &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Registrarse&#39;, &lt;/b&gt;ya que el correo es indispensable para identificar al usuario o enviar notificaciones.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Ingresar Contraseña: &lt;/b&gt;El usuario define una contraseña para proteger su cuenta.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Es incluido por el caso de uso &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Registrarse&#39;, &lt;/b&gt;porque la contraseña es necesaria para asegurada el acceso a la cuenta.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Iniciar sesión: &lt;/b&gt;Permite al usuario acceder al sistema introduciendo su correo y contraseña previamente registrados.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Incluye el caso de uso &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Verificar Credenciales&#39;, &lt;/b&gt;ya que el sistema debe validar los datos ingresados.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende a &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Autenticación de Dos Factores&#39;&lt;/b&gt;, si el sistema requiere pasos adicionales para garantizar seguridad.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/b&gt; Se extiende a &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Recuperara Contraseña&#39;&lt;/b&gt;, si el usuario no recuerda su contraseña.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/b&gt; Se extiende a &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Notificar Falla de Autenticación&#39;&lt;/b&gt;, en caso de que las credenciales sean incorrectas.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Verificar Credenciales: &lt;/b&gt;El sistema valida que el correo y contraseña ingresados por el usuario coincidan con una cuenta registrada.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;include&amp;gt;&amp;gt; &lt;/b&gt;Es inlcuido por el caso de uso &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Iniciar sesión&#39;, &lt;/b&gt;ya que en un paso esencial para determinar si el acceso es permitido.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Extiende a &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Notificar Falla de Autenticación&#39;, &lt;/b&gt;en caso de que las credenciales no coincidan.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Autenticación de Dos Factores: &lt;/b&gt;Paso adicional de seguridad que solicita al usuario proporcionar un código enviado a su correo o dispositivo.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende desde &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Iniciar sesión&#39;, &lt;/b&gt;ya que se ejecuta solo si el sistema tiene configurada esta opción de seguridad.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Recuperar Contraseña: &lt;/b&gt;Permite al usuario restablecer su contraseña en caso de haberla olvidado, a través de un correo de recuperación o preguntas de seguridad.&lt;/span&gt;&lt;/li&gt;&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Relación: &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; &lt;/b&gt;Se extiende desde &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Iniciar sesión&#39;, &lt;/b&gt;ya que se ofrece como una alternativa cuando el usuario no recuerda su contraseña.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Actor principal: &lt;/b&gt;El &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Usuario&#39;&lt;/b&gt;&amp;nbsp;quien interactúa con el sistema para registrarse o iniciar sesión.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Actor secundario: &lt;/b&gt;El &lt;b style=&quot;font-size: 20px;&quot;&gt;&#39;Sistema&#39; &lt;/b&gt;que verifica credenciales, almacena datos y maneja notificaciones.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="265" y="105" width="1070" height="990" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
